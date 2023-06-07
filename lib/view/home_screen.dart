@@ -17,19 +17,20 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Home Screen'),
+        automaticallyImplyLeading: false,
+        title: InkWell(
+            onTap: (){
+              userPreference.remove().then((value){
+                Navigator.pushNamed(context, RoutesName.login);
+              });
+            },
+            child: Text('Logout')),
         backgroundColor: Colors.teal,
       ),
       body: SafeArea(
         child: Column(
           children: [
-            InkWell(
-        onTap: (){
-          userPreference.remove().then((value){
-            Navigator.pushNamed(context, RoutesName.login);
-          });
-          },
-            child: Text('Logout'))
+
           ],
         ),
       ),
