@@ -1,9 +1,9 @@
 import 'dart:convert';
 
 import 'package:http/http.dart';
-import 'package:mvvm_provider/data/network/BaseApiServices.dart';
-import 'package:mvvm_provider/data/network/NetworkApiServices.dart';
-import 'package:mvvm_provider/res/app_url.dart';
+import 'package:movie_mania/data/network/BaseApiServices.dart';
+import 'package:movie_mania/data/network/NetworkApiServices.dart';
+import 'package:movie_mania/res/app_url.dart';
 
 class AuthRepository {
 

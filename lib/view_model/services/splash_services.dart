@@ -1,9 +1,9 @@
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:mvvm_provider/model/user_model.dart';
-import 'package:mvvm_provider/utils/routes/routes_name.dart';
-import 'package:mvvm_provider/view_model/user_view_model.dart';
+import 'package:movie_mania/model/user_model.dart';
+import 'package:movie_mania/utils/routes/routes_name.dart';
+import 'package:movie_mania/view_model/user_view_model.dart';
 
 class SplashServices {
 

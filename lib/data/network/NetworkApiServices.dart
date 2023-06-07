@@ -2,8 +2,8 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:http/http.dart';
-import 'package:mvvm_provider/data/app_exceptions.dart';
-import 'package:mvvm_provider/data/network/BaseApiServices.dart';
+import 'package:movie_mania/data/app_exceptions.dart';
+import 'package:movie_mania/data/network/BaseApiServices.dart';
 import 'package:http/http.dart' as http;
 
 class NetworkApiService extends BaseApiServices {

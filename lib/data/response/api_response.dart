@@ -1,5 +1,5 @@
 
-import 'package:mvvm_provider/data/response/status.dart';
+import 'package:movie_mania/data/response/status.dart';
 
 class ApiResponse<T> {
 

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_provider/res/components/round_button.dart';
-import 'package:mvvm_provider/utils/utils.dart';
-import 'package:mvvm_provider/view/home_screen.dart';
-import 'package:mvvm_provider/view_model/auth_view_model.dart';
+import 'package:movie_mania/res/components/round_button.dart';
+import 'package:movie_mania/utils/utils.dart';
+import 'package:movie_mania/view/home_screen.dart';
+import 'package:movie_mania/view_model/auth_view_model.dart';
 import 'package:provider/provider.dart';
 import '../utils/routes/routes_name.dart';
 

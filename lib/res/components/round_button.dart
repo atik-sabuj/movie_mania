@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_provider/res/color.dart';
+import 'package:movie_mania/res/color.dart';
 
 class RoundButton extends StatelessWidget {
 

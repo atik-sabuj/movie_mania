@@ -1,6 +1,6 @@
 
 import 'package:flutter/cupertino.dart';
-import 'package:mvvm_provider/model/user_model.dart';
+import 'package:movie_mania/model/user_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class UserViewModel with ChangeNotifier {

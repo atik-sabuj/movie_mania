@@ -2,9 +2,9 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
-import 'package:mvvm_provider/respository/auth_repository.dart';
-import 'package:mvvm_provider/utils/routes/routes_name.dart';
-import 'package:mvvm_provider/utils/utils.dart';
+import 'package:movie_mania/respository/auth_repository.dart';
+import 'package:movie_mania/utils/routes/routes_name.dart';
+import 'package:movie_mania/utils/utils.dart';
 
 
 class AuthViewModel with ChangeNotifier {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_provider/view_model/services/splash_services.dart';
+import 'package:movie_mania/view_model/services/splash_services.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({Key? key}) : super(key: key);
